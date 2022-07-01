@@ -5,6 +5,36 @@
   "Cols": {
     "Count": 60
   },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DownloadFileCommand, Forguncy",
+            "FileName": "Forguncy6 (5)",
+            "FileGuid": "579c9898d5414b7abf3d217b7d0d02d9",
+            "FileExtension": ".exe"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "StyleDatas": {
     "Types": {
       "Strs": [
@@ -15,6 +45,9 @@
       "FontFamily": 0
     }
   },
+  "Spans": [
+    "1,2,2,6"
+  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "AuthorizeInfo": {
