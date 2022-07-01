@@ -5,6 +5,10 @@
   "Cols": {
     "Count": 60
   },
+  "Values": {
+    "7,2": "92MB",
+    "7,9": "56M"
+  },
   "AttachInfos": {
     "1,2": {
       "CellType": {
@@ -61,6 +65,64 @@
           }
         ]
       }
+    },
+    "7,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DownloadFileCommand, Forguncy",
+            "FileName": "XMind-for-Windows-64bit-11.0.1-202106020137 (1)",
+            "FileGuid": "8b77a36ad42148aeb56f1da78d4be79f",
+            "FileExtension": ".exe"
+          }
+        ],
+        "Text": "92MB",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "7,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DownloadFileCommand, Forguncy",
+            "FileName": "navicat150_premium_cs_x64",
+            "FileGuid": "66cec32868b64b6caaa01974b6f58f18",
+            "FileExtension": ".exe"
+          }
+        ],
+        "Text": "56M",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
     }
   },
   "StyleDatas": {
@@ -75,7 +137,9 @@
   },
   "Spans": [
     "1,2,2,6",
-    "4,2,2,6"
+    "4,2,2,6",
+    "7,2,2,6",
+    "7,9,2,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
