@@ -97,7 +97,18 @@
   },
   {
     "ModuleName": "Page1",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-07-01T16:50:38.4081309+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Page1.json",
+      "UserTemplateFile\\Forguncy6 (5)579c9898d5414b7abf3d217b7d0d02d9.exe",
+      "UserTemplateFile\\PCQQ20215c72f11fe19c4d0dabef71c2db03cf33.exe"
+    ]
   },
   {
     "ModuleName": "FGC_ユーザーマスターページ",
